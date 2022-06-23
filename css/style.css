@@ -90,6 +90,33 @@ header .h-right span {
     font-size: 1.5rem;
     color: var(--text_c1);
 }
+
+/* Start of contact section */
+#contact .container-fluid h1 {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#contact .star_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#contact .star_container div {
+    display: inline-block;
+}
+
+#contact .star_container div i {
+    margin: 0px 5px;
+}
+
+#contact .riga {
+    height: 2px;
+    background-color: #000;
+    width: 25%;
+}
+
 /* End of main */
 
 /* Start of footer */

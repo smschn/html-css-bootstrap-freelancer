@@ -49,9 +49,17 @@ header .h-left h1 {
 }
 
 /* Start of footer */
-footer #copyright .f_bg {
-    background-color: var(--bgc_1);
+footer {
     color: var(--text_c1);
+    text-align: center;
+}
+
+footer #location .f_bg1 {
+    background-color: var(--bgc_3);
+}
+
+footer #copyright .f_bg2 {
+    background-color: var(--bgc_1);
     text-align: center;
     font-size: 0.8rem;
 }

@@ -2,7 +2,7 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-    font-family: Helvetica, sans-serif;
+    font-family: sans-serif;
 }
 
 :root {
@@ -56,6 +56,11 @@ footer {
 
 footer #location .f_bg1 {
     background-color: var(--bgc_3);
+}
+
+footer #location a {
+    text-decoration: none;
+    color: var(--bgc_2);
 }
 
 footer #copyright .f_bg2 {

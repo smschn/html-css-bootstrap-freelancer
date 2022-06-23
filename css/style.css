@@ -80,6 +80,10 @@ header .h-right span {
 }
 
 /* Start of about section */
+#about {
+    color: var(--text_c1);
+}
+
 #about .a_bgc {
     background-color: var(--bgc_2);
 }
@@ -105,8 +109,20 @@ header .h-right span {
 
 #about .riga {
     height: 2px;
-    background-color: #000;
+    background-color: #fff;
     width: 25%;
+}
+
+#about .my_btn {
+    display: block;
+    margin: auto;
+    color: var(--text_c1);
+    background-color: var(--bgc_2);
+    border: 1px solid var(--text_c1);
+}
+
+#about .my_btn i {
+    display: inline-block;
 }
 
 /* Start of contact section */

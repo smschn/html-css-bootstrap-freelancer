@@ -6,14 +6,15 @@
 }
 
 :root {
-    --bg-1: #2c3e50;
-    --text-c1: #fff;
+    --bgc_1: #2c3e50;
+    --bgc_2: #1abc9c;
+    --text_c1: #fff;
 }
 
 /* Start of header */
 header .h_bg {
-    background-color: var(--bg-1);
-    color: var(--text-c1)
+    background-color: var(--bgc_1);
+    color: var(--text_c1)
 }
 
 .h-left,
@@ -26,6 +27,12 @@ header .h-left h1 {
     font-size: 1.5rem;
 }
 /* End of header */
+
+/* Start of jumbotron */
+#jumbotron .j_bgc {
+    background-color: var(--bgc_2);
+}
+/* End of jumbotron */
 
 /* Debug rules */
 .d_bg {

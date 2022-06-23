@@ -12,6 +12,12 @@
     --text_c1: #fff;
 }
 
+/* General rules */
+.d_flex {
+    display: flex;
+    flex-direction: row;
+}
+
 /* Start of header */
 header .h_bg {
     background-color: var(--bgc_1);
@@ -25,8 +31,19 @@ header .h_bg {
 
 header .h-left h1 {
     text-transform: uppercase;
-    font-size: 1.5rem;
+    font-size: 1.1rem;
 }
+
+header .h-left  {
+    text-transform: uppercase;
+    font-size: 1.1rem;
+}
+
+header .h-right span {
+    display: none;
+    font-size: 0.9rem;
+}
+
 /* End of header */
 
 /* Start of jumbotron */
@@ -96,4 +113,13 @@ footer #copyright .f_bg2 {
     background-color: lightcoral;
     height: 100px;
     border: 1px dashed black;
+}
+
+@media screen and (min-width: 576px) {
+    header .hidden_sm {
+        display: none;
+    }
+    header .h-right span {
+        display: inline-block;
+    }
 }

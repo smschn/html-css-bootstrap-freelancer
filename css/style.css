@@ -120,8 +120,14 @@ header .h-right span {
 #contact input,
 #contact textarea {
     border-style: none;
+    width: 100%;
 }
 
+#contact .my_btn {
+    color: var(--text_c1);
+    background-color: var(--bgc_2);
+    border-style: none;
+}
 /* End of main */
 
 /* Start of footer */

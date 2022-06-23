@@ -53,6 +53,32 @@ header .h-right span {
 /* End of jumbotron */
 
 /* Start of main */
+/* Start of portfolio section */
+#portfolio h1 {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#portfolio .star_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#portfolio .star_container div {
+    display: inline-block;
+}
+
+#portfolio .star_container div i {
+    margin: 0px 5px;
+}
+
+#portfolio .riga {
+    height: 2px;
+    background-color: #000;
+    width: 25%;
+}
+
 /* Start of about section */
 #about .a_bgc {
     background-color: var(--bgc_2);

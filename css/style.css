@@ -79,6 +79,11 @@ header .h-right span {
     width: 25%;
 }
 
+
+#portfolio  img {
+    width: 100%;
+}
+
 /* Start of about section */
 #about {
     color: var(--text_c1);
@@ -199,8 +204,9 @@ footer #copyright .f_bg2 {
 /* End of footer */
 
 /* Debug rules */
-.d_bg {
+.db_bg {
     background-color: lightblue;
+    height: 50px;
 }
 
 .my_border {

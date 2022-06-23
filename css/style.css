@@ -8,6 +8,7 @@
 :root {
     --bgc_1: #2c3e50;
     --bgc_2: #1abc9c;
+    --bgc_3: #3a546d;
     --text_c1: #fff;
 }
 
@@ -33,6 +34,28 @@ header .h-left h1 {
     background-color: var(--bgc_2);
 }
 /* End of jumbotron */
+
+/* Start of main */
+/* Start of about section */
+#about .a_bgc {
+    background-color: var(--bgc_2);
+}
+
+#about h1 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    color: var(--text_c1);
+}
+
+/* Start of footer */
+footer #copyright .f_bg {
+    background-color: var(--bgc_1);
+    color: var(--text_c1);
+    text-align: center;
+    font-size: 0.8rem;
+}
+/* End of footer */
 
 /* Debug rules */
 .d_bg {

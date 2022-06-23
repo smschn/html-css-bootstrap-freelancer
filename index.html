@@ -15,7 +15,7 @@
 
 
     <header>
-        <div class="container-fluid h_bg">
+        <div class="container-fluid py-3 h_bg">
             <div class="row">
                 <div class="col-11 my_border">
                     <div class="h-left">
@@ -25,7 +25,6 @@
                 <div class="col-1 my_border">
                     <div class="h-right">
                         <i class="fa-solid fa-bars fa-2x"></i>
-
                     </div>
                 </div>
             </div>
@@ -33,15 +32,17 @@
     </header>
     
     <section id="jumbotron">
-        <div class="container-fluid j_bgc">
-            <div class="col-10 offset-1 my_border">
-                immagine
-                <br>
-                testo
-                <br>
-                riga
-                <br>
-                testo
+        <div class="container-fluid py-3 j_bgc">
+            <div class="row">
+                <div class="col-10 offset-1 my_border">
+                    immagine
+                    <br>
+                    testo
+                    <br>
+                    riga
+                    <br>
+                    testo
+                </div>
             </div>
         </div>
     </section>
@@ -49,25 +50,62 @@
     <main>
 
         <section id="portfolio">
-            <div class="container-fluid">
-            <div class="col-10 offset-1 my_border">
-                <h1>portfolio</h1>
-                <div>riga e stella</div>
-                <div class="contenitore">
-                    immagini
+            <div class="container-fluid my-3">
+                <div class="row">
+                    <div class="col-10 offset-1 my_border">
+                        <h1>portfolio</h1>
+                        <div>riga e stella</div>
+                        <div>immagini</div>
+                    </div>
                 </div>
             </div>
         </section>
 
-        <section id="about"></section>
-        
-        <section id="contact"></section>
+        <section id="about">
+            <div class="container-fluid a_bgc">
+                <div class="row">
+                    <div class="col-8 offset-2 my_border">
+                        <h1>about</h1>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <div class="container-fluid">
+                <div class="row my_border">
+                    <div class="col-8 offset-2 my_border">
+                        <h1>contact me</h1>
+                        <div>stella e righe</div>
+                        <form action="#" method="GET">
+                            <input type="text" placeholder="Name">
+                            <br>
+                            <input type="email" placeholder="Email Address">
+                            <br>
+                            <input type="number" placeholder="Phone Number">
+                            <br>
+                            <textarea placeholder="Message" rows="5"></textarea>
+                            <br>
+                            <input type="submit" placeholder="Send">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
 
     </main>
     
     <footer>
         <section id="location"></section>
-        <section id="copyright"></section>
+        <section id="copyright">
+            <div class="container-fluid py-3 f_bg">
+                <div class="row">
+                    <div class="col-8 offset-2  my_border">
+                        Copyright &#169 Freelancer Website 2022
+                    </div>
+                </div>
+            </div>
+        </section>
     </footer>
 
 </body>

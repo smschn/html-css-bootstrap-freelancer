@@ -39,6 +39,10 @@ header .h-left h1 {
     background-color: lightblue;
 }
 
+.my_border {
+    border: 1px dashed black;
+}
+
 .box {
     background-color: lightcoral;
     height: 100px;

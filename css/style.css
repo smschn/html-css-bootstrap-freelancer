@@ -117,6 +117,11 @@ header .h-right span {
     width: 25%;
 }
 
+#contact input,
+#contact textarea {
+    border-style: none;
+}
+
 /* End of main */
 
 /* Start of footer */

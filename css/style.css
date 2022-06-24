@@ -43,27 +43,6 @@ header .h-right .menu_hidden_xs {
     font-size: 0.8rem;
     padding: 0.5rem;
 }
-
-/* .h-left,
-.h-right {
-    height: 100%;
-}
-
-header .h-left h1 {
-    text-transform: uppercase;
-    font-size: 1.1rem;
-}
-
-header .h-left  {
-    text-transform: uppercase;
-    font-size: 1.1rem;
-}
-
-header .h-right span {
-    display: none;
-    font-size: 0.9rem;
-} */
-
 /* End of header */
 
 /* Start of jumbotron */
@@ -263,6 +242,19 @@ footer #copyright .f_bg2 {
         display: none;
     }
 }
+
+/* Hover effects - bonus part */
+.menu_hidden_xs:hover,
+#location .icon_container .icon_circle i:hover {
+    color: var(--bgc_2);
+    cursor: pointer;
+}
+
+#about .my_btn:hover,
+#contact .my_btn:hover {
+    background-color: #128971;
+}
+
 
 /* Debug rules
 .db_bg {

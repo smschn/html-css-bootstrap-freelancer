@@ -54,9 +54,6 @@ header .h_top .h_right ul {
     background-color: var(--c_2);
 }
 
-#portfolio .portfolio_img {
-}
-
 /* Start of media queries */
 @media screen and (min-width: 768px) {
     header .h_top .h_right .icon_menu {

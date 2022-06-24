@@ -15,14 +15,16 @@
 
 /* General rules for backbrounds */
 #jumbotron,
-#about {
+#about,
+#contact_me .my_btn {
     background-color: var(--bg_2);
 }
 
 /* General rules for star_container */
 #jumbotron .my_line,
 #portfolio .my_line,
-#about .my_line {
+#about .my_line,
+#contact_me .my_line {
     height: 3px;
     width: 15%;
 }
@@ -30,6 +32,11 @@
 #jumbotron .my_line,
 #about .my_line {
     background-color: var(--c_1);
+}
+
+#portfolio .my_line,
+#contact_me .my_line {
+    background-color: var(--c_2);
 }
 
 /* Start of header */
@@ -54,11 +61,20 @@ header .h_top .h_right ul {
 
 /* Start of main */
 /* Start of portfolio */
-#portfolio .my_line {
-    background-color: var(--c_2);
+/* Start of about */
+/* Start of contact_me */
+#contact_me form input,
+#contact_me form textarea {
+    display: block;
+    margin: 0.5rem 0rem;
 }
 
-/* Start of about */
+#contact_me form input,
+#contact_me form textarea,
+#contact_me hr,
+#contact_me .my_btn_container {
+    width: 60%;
+}
 
 /* Start of media queries */
 @media screen and (min-width: 768px) {

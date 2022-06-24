@@ -9,6 +9,7 @@
 :root {
     --bg_1: #2c3e50;
     --bg_2: #1abc9c;
+    --bg_3: #3a546d;
     --c_1: #fff;
     --c_2: #000;
 }
@@ -74,6 +75,22 @@ header .h_top .h_right ul {
 #contact_me hr,
 #contact_me .my_btn_container {
     width: 60%;
+}
+
+/* Start of footer */
+/* Start of footer_top */
+#footer_top {
+    background-color: var(--bg_3);
+}
+
+#footer_top a {
+    text-decoration: none;
+    color: var(--bg_2);
+}
+
+/* Start of footer_bottom */
+#footer_bottom {
+    background-color: var(--bg_1);
 }
 
 /* Start of media queries */

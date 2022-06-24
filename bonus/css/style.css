@@ -13,8 +13,16 @@
 
 /* Start of header */
 /* Start of navbar */
-header .h-top {
+header .h_top {
     background-color: var(--bg_1);
+}
+
+header .h_top .h_right .icon_menu {
+    border: 1px solid grey;
+}
+
+header .h_top .h_right ul {
+    display: none;
 }
 
 /* Start of jumbotron */
@@ -22,3 +30,17 @@ header .h-top {
     background-color: var(--bg_2);
 }
 /* End of header */
+
+/* Start of media queries */
+@media screen and (min-width: 768px) {
+    header .h_top .h_right .icon_menu {
+        display: none;
+    }
+    header .h_top .h_right ul {
+        display: block;
+        display: flex;
+    }
+    header .h_top .h_right ul li {
+        padding: 0rem 0.5rem;
+    }
+}

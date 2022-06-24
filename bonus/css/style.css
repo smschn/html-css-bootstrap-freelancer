@@ -4,3 +4,21 @@
     box-sizing: border-box;
     font-family: sans-serif;
 }
+
+/* General rules */
+:root {
+    --bg_1: #2c3e50;
+    --bg_2: #1abc9c;
+}
+
+/* Start of header */
+/* Start of navbar */
+header .h-top {
+    background-color: var(--bg_1);
+}
+
+/* Start of jumbotron */
+#jumbotron {
+    background-color: var(--bg_2);
+}
+/* End of header */

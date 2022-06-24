@@ -10,6 +10,7 @@
     --bgc_2: #1abc9c;
     --bgc_3: #3a546d;
     --text_c1: #fff;
+    --bgc_effects: #128971;
 }
 
 /* General rules */
@@ -252,7 +253,24 @@ footer #copyright .f_bg2 {
 
 #about .my_btn:hover,
 #contact .my_btn:hover {
-    background-color: #128971;
+    background-color: var(--bgc_effects);
+}
+
+/* Overlay effect - bonus part */
+
+.my_overlay {
+    display: none;
+}
+
+.my_img_container:hover .my_overlay {
+    display: block;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: var(--bgc_effects);
+    opacity: 0.7;
+    cursor: pointer;
 }
 
 
